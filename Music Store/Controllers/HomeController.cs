@@ -15,9 +15,9 @@ namespace Music_Store.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Some content about us.";
 
-            return View();
+            return View("About-Us");
         }
 
         public ActionResult Contact()
